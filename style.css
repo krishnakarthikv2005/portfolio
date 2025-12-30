@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: rgba(105, 90, 205, 0.764);
+    
+}
+
+nav{
+    color: aliceblue;
+}
+.header{
+    
+    margin: 5px;
+}
+h1,ul,li{
+    padding: 10px;
+    display: inline-block;
+    
+    
+    
+    
+
+}
+ul{
+     position: relative;
+    left: 45%;
+}
+
+li{
+    cursor: pointer;
+   
+}
+li:hover{
+    color: black;
+}
+img{
+    width:250px;
+    margin: 5px;
+    
+}
+.photo{
+    display: flex;
+    
+}
+.photo h1{
+    color:white;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.photo p{
+    position: relative;
+    top: 150px;
+    right: 300px;
+    color: white;
+}
+.about{
+    height: 150px;
+    width:70%;
+    background-color: rgba(255, 255, 255, 0.725);
+    margin-left: 250px;
+    margin-top: 5px;
+    
+}
+.about p{
+    padding-left: 20px;
+}
+ /* .skills{
+    
+    
+    width:70%;
+    background-color: rgba(255, 255, 255, 0.725);
+     margin-left: 250px;
+    margin-top: 10px;
+   
+}
+.apple{
+    height: 70px;
+    width: 180px;
+    display: inline-block;
+    margin: 10px;
+    padding-left: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    
+     
+    
+}
+.apple h4{
+    background-color: rgba(128, 128, 128, 0.699);
+    padding-left: 20px;
+}  */
+.skills{
+    width: 70%;
+    height: 150px;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.725);
+    padding: 20px;
+     margin-left: 250px;
+    
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.apple{
+    width: 180px;
+    min-height: 120px;
+    border: 5px solid black;
+}  
+.apple h4{
+    background-color: rgba(128, 128, 128, 0.76);
+}
+.project{
+    background-color: rgba(255, 255, 255, 0.734);
+    width: 70%;
+    height: 150px;
+    margin-left: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.pro{
+    width:180px;
+    height: 120px;
+    background-color: darkcyan;
+    color: white;
+    border: 2px solid darkblue;
+}
+.education{
+    background-color: white;
+    width: 70%;
+    height: 150px;
+    margin-left: 250px;
+    margin-top: 10px;
+
+    
+}
+.be{
+    background-color: rgba(128, 128, 128, 0.764);
+    width: 70%;
+    height:50px ;
+    border:2px solid grey(128,128,128,0.764);
+}
+.achi{
+    background-color: rgba(0, 139, 139, 0.637);
+    width: 70%;
+    height: 150px;
+    margin-left: 250px;
+    margin-top: 45px;
+    color: white;
+    padding-left: 30px;
+}
+.Contact{
+     background-color: rgba(0, 139, 139, 0.637);
+    width: 70%;
+    height: 100x;
+    margin-left: 250px;
+    margin-top: 45px;
+    color: white;
+    padding-left: 30px;
+}
+.add{
+    color: white;
+    text-align: center;
+}
